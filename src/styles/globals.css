@@ -1,0 +1,82 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-bg text-ink antialiased;
+    font-feature-settings: 'kern';
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Arabic / RTL gets the Arabic font stack automatically. */
+  html[dir='rtl'] body {
+    @apply font-arabic;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-sans font-semibold tracking-tight text-ink;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Visible, on-brand focus state for keyboard users (WCAG 2.1 AA). */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-blue);
+    color: #fff;
+  }
+}
+
+@layer components {
+  /* Constrained content column used across sections. */
+  .container-px {
+    @apply mx-auto w-full max-w-[1280px] px-5 sm:px-6 lg:px-8;
+  }
+
+  /* Gradient text for the "AI" emphasis in headlines. */
+  .text-gradient {
+    @apply bg-gradient-to-r from-cyan to-blue bg-clip-text text-transparent;
+  }
+
+  /* Hairline divider that reads on both light and dark. */
+  .hairline {
+    @apply border-white/10;
+  }
+}
+
+@layer utilities {
+  /* Respect user motion preferences globally for non-essential animation. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

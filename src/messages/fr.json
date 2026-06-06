@@ -1,0 +1,79 @@
+{
+  "Common": {
+    "startProject": "Démarrer un projet",
+    "viewWork": "Nos réalisations",
+    "getQuote": "Demander un devis",
+    "bookCall": "Réserver un appel",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "talkToAI": "Parler à notre assistant IA",
+    "readMore": "Lire la suite",
+    "sendMessage": "Envoyer le message",
+    "loading": "Chargement…",
+    "backToHome": "Retour à l'accueil",
+    "allRightsReserved": "Tous droits réservés.",
+    "madeIn": "Conçu & développé en Suisse."
+  },
+  "Nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "work": "Réalisations",
+    "about": "À propos",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Fermer",
+    "openMenu": "Ouvrir le menu",
+    "switchLanguage": "Changer de langue"
+  },
+  "Footer": {
+    "tagline": "Nous créons des marques, des sites web & des systèmes IA avec la précision suisse.",
+    "company": "Entreprise",
+    "servicesTitle": "Services",
+    "legalTitle": "Mentions légales",
+    "contactTitle": "Contact",
+    "newsletterTitle": "Restez informé",
+    "newsletterBody": "Quelques notes sur l'IA, le design et la croissance. Pas de spam.",
+    "newsletterPlaceholder": "Votre e-mail",
+    "newsletterCta": "S'abonner",
+    "newsletterSuccess": "Merci — vous êtes inscrit.",
+    "office": "Zurich, Suisse",
+    "privacy": "Confidentialité",
+    "imprint": "Mentions légales",
+    "terms": "Conditions"
+  },
+  "Home": {
+    "metaTitle": "SwissDigiAI — Marques, sites web & systèmes IA",
+    "metaDescription": "Agence digitale suisse créant marques, sites web, applications et systèmes IA sur mesure. Réseaux sociaux, développement web & mobile et solutions IA — avec la précision suisse.",
+    "hero": {
+      "eyebrow": "Agence digitale suisse",
+      "titleLead": "Nous créons des marques, des sites web &",
+      "titleHighlight": "des systèmes IA",
+      "subtitle": "Gestion des réseaux sociaux · Développement web & mobile · Solutions IA sur mesure.",
+      "trust": "La confiance d'entreprises dans toute la Suisse"
+    },
+    "aiHighlight": {
+      "cta": "Parler à notre assistant IA"
+    },
+    "ctaBand": {
+      "title": "Construisons quelque chose avec la précision suisse.",
+      "subtitle": "Parlez-nous de votre projet ou réservez un appel découverte gratuit de 30 minutes."
+    }
+  },
+  "Chat": {
+    "title": "Assistant SwissDigiAI",
+    "subtitle": "Questions sur les services, tarifs ou processus",
+    "greeting": "Bonjour ! Je suis l'assistant SwissDigiAI. Posez-moi vos questions sur nos services, tarifs ou processus — ou parlez-moi de votre projet.",
+    "placeholder": "Tapez votre message…",
+    "poweredBy": "Propulsé par Claude"
+  },
+  "Cookie": {
+    "title": "Votre vie privée compte",
+    "body": "Nous utilisons des cookies essentiels et des cookies d'analyse optionnels. Vous choisissez.",
+    "accept": "Tout accepter",
+    "reject": "Essentiels uniquement",
+    "settings": "Paramètres",
+    "learnMore": "Confidentialité"
+  }
+}

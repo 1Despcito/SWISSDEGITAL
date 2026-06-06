@@ -1,0 +1,79 @@
+{
+  "Common": {
+    "startProject": "Projekt starten",
+    "viewWork": "Unsere Arbeiten",
+    "getQuote": "Angebot anfordern",
+    "bookCall": "Termin buchen",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "talkToAI": "Mit unserem KI-Assistenten sprechen",
+    "readMore": "Weiterlesen",
+    "sendMessage": "Nachricht senden",
+    "loading": "Lädt …",
+    "backToHome": "Zurück zur Startseite",
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "madeIn": "Gestaltet & entwickelt in der Schweiz."
+  },
+  "Nav": {
+    "home": "Start",
+    "services": "Leistungen",
+    "work": "Arbeiten",
+    "about": "Über uns",
+    "pricing": "Preise",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "menu": "Menü",
+    "close": "Schliessen",
+    "openMenu": "Menü öffnen",
+    "switchLanguage": "Sprache wechseln"
+  },
+  "Footer": {
+    "tagline": "Wir bauen Marken, Websites & KI-Systeme mit Schweizer Präzision.",
+    "company": "Unternehmen",
+    "servicesTitle": "Leistungen",
+    "legalTitle": "Rechtliches",
+    "contactTitle": "Kontakt",
+    "newsletterTitle": "Bleiben Sie informiert",
+    "newsletterBody": "Gelegentliche Notizen zu KI, Design und Wachstum. Kein Spam.",
+    "newsletterPlaceholder": "Ihre E-Mail",
+    "newsletterCta": "Abonnieren",
+    "newsletterSuccess": "Danke — Sie sind dabei.",
+    "office": "Zürich, Schweiz",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "terms": "AGB"
+  },
+  "Home": {
+    "metaTitle": "SwissDigiAI — Marken, Websites & KI-Systeme",
+    "metaDescription": "Schweizer Digitalagentur für Marken, Websites, Apps und massgeschneiderte KI-Systeme. Social Media, Web- & App-Entwicklung und KI-Lösungen — mit Schweizer Präzision.",
+    "hero": {
+      "eyebrow": "Schweizer Digitalagentur",
+      "titleLead": "Wir bauen Marken, Websites &",
+      "titleHighlight": "KI-Systeme",
+      "subtitle": "Social-Media-Management · Web- & App-Entwicklung · Massgeschneiderte KI-Lösungen.",
+      "trust": "Vertraut von Unternehmen in der ganzen Schweiz"
+    },
+    "aiHighlight": {
+      "cta": "Mit unserem KI-Assistenten sprechen"
+    },
+    "ctaBand": {
+      "title": "Bauen wir etwas mit Schweizer Präzision.",
+      "subtitle": "Erzählen Sie uns von Ihrem Projekt oder buchen Sie ein kostenloses 30-minütiges Erstgespräch."
+    }
+  },
+  "Chat": {
+    "title": "SwissDigiAI Assistent",
+    "subtitle": "Fragen zu Leistungen, Preisen oder Ablauf",
+    "greeting": "Hallo! Ich bin der SwissDigiAI-Assistent. Fragen Sie mich zu unseren Leistungen, Preisen oder zum Ablauf — oder erzählen Sie mir von Ihrem Projekt.",
+    "placeholder": "Nachricht eingeben …",
+    "poweredBy": "Unterstützt von Claude"
+  },
+  "Cookie": {
+    "title": "Ihre Privatsphäre ist uns wichtig",
+    "body": "Wir verwenden notwendige Cookies und optionale Analyse-Cookies. Sie entscheiden.",
+    "accept": "Alle akzeptieren",
+    "reject": "Nur notwendige",
+    "settings": "Einstellungen",
+    "learnMore": "Datenschutz"
+  }
+}

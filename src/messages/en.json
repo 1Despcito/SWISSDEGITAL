@@ -1,0 +1,304 @@
+{
+  "Common": {
+    "startProject": "Start a project",
+    "viewWork": "View our work",
+    "getQuote": "Get a quote",
+    "bookCall": "Book a call",
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "talkToAI": "Talk to our AI assistant",
+    "readMore": "Read more",
+    "sendMessage": "Send message",
+    "loading": "Loading…",
+    "backToHome": "Back to home",
+    "allRightsReserved": "All rights reserved.",
+    "madeIn": "Designed & built in Switzerland."
+  },
+  "Nav": {
+    "home": "Home",
+    "services": "Services",
+    "work": "Work",
+    "about": "About",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "openMenu": "Open menu",
+    "switchLanguage": "Switch language"
+  },
+  "Footer": {
+    "tagline": "We build brands, websites & AI systems with Swiss precision.",
+    "company": "Company",
+    "servicesTitle": "Services",
+    "legalTitle": "Legal",
+    "contactTitle": "Get in touch",
+    "newsletterTitle": "Stay in the loop",
+    "newsletterBody": "Occasional notes on AI, design and growth. No spam.",
+    "newsletterPlaceholder": "Your email",
+    "newsletterCta": "Subscribe",
+    "newsletterSuccess": "Thanks — you're on the list.",
+    "office": "Zürich, Switzerland",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "terms": "Terms"
+  },
+  "Home": {
+    "metaTitle": "SwissDigiAI — Brands, Websites & AI Systems",
+    "metaDescription": "Swiss digital agency building brands, websites, apps and custom AI systems. Social media, web & app development, and AI solutions — engineered with Swiss precision.",
+    "hero": {
+      "eyebrow": "Swiss Digital Agency",
+      "titleLead": "We build brands, websites &",
+      "titleHighlight": "AI systems",
+      "subtitle": "Social media management · Web & app development · Custom AI solutions.",
+      "trust": "Trusted by businesses across Switzerland"
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Everything you need to grow online",
+      "subtitle": "From the first pixel to production AI — one team, end to end."
+    },
+    "why": {
+      "eyebrow": "Why SwissDigiAI",
+      "title": "Swiss precision meets AI velocity",
+      "items": {
+        "precision": {
+          "title": "Swiss precision & reliability",
+          "body": "Meticulous craft, clear communication, and deadlines we actually keep."
+        },
+        "ai": {
+          "title": "AI-driven efficiency",
+          "body": "We use AI in our own workflow, so you ship faster and smarter — not just talk about it."
+        },
+        "fullstack": {
+          "title": "Brand → web → app → AI",
+          "body": "One partner for the whole journey. No hand-offs, no finger-pointing."
+        },
+        "local": {
+          "title": "Multilingual, local service",
+          "body": "Native EN/DE/FR/IT support and a deep understanding of the Swiss market."
+        }
+      }
+    },
+    "work": {
+      "eyebrow": "Selected work",
+      "title": "Results we're proud of",
+      "subtitle": "A snapshot of recent projects.",
+      "cta": "See all work"
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "A clear path from idea to growth",
+      "steps": {
+        "discover": { "title": "Discover", "body": "We learn your goals, audience and market." },
+        "design": { "title": "Design", "body": "We craft the brand, UX and visual system." },
+        "build": { "title": "Build", "body": "We engineer fast, scalable, AI-ready products." },
+        "grow": { "title": "Grow", "body": "We measure, optimise and scale what works." }
+      }
+    },
+    "stats": {
+      "title": "Numbers that matter",
+      "items": {
+        "projects": { "label": "Projects delivered" },
+        "growth": { "label": "Avg. client growth" },
+        "response": { "label": "Avg. response time" },
+        "retention": { "label": "Client retention" }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What clients say"
+    },
+    "aiHighlight": {
+      "eyebrow": "Built with AI",
+      "title": "We don't just talk about AI — we run on it",
+      "body": "This very site has a Claude-powered assistant that can answer questions about our services, pricing and process. Ask it anything.",
+      "cta": "Talk to our AI assistant"
+    },
+    "ctaBand": {
+      "title": "Let's build something with Swiss precision.",
+      "subtitle": "Tell us about your project, or book a free 30-minute discovery call."
+    }
+  },
+  "Services": {
+    "metaTitle": "Services — SwissDigiAI",
+    "metaDescription": "Social media, performance ads, web & app development, AI systems and branding — outcome-focused services from a Swiss digital agency.",
+    "eyebrow": "Our services",
+    "title": "Outcome-focused services",
+    "subtitle": "Pick a starting point — or let us handle the whole stack.",
+    "viewService": "Learn more",
+    "ctaTitle": "Not sure where to start?",
+    "ctaBody": "Tell us your goal and we'll recommend the right mix.",
+    "whatYouGet": "What you get",
+    "ourProcess": "Our process",
+    "deliverables": "Deliverables",
+    "relatedWork": "Related work",
+    "faqTitle": "Frequently asked questions",
+    "pricingTeaser": "Transparent packages, starting prices and custom quotes.",
+    "pricingCta": "See pricing",
+    "promiseLabel": "The promise"
+  },
+  "Work": {
+    "metaTitle": "Work & Case Studies — SwissDigiAI",
+    "metaDescription": "Selected case studies: brands, websites, apps and AI systems delivered with Swiss precision.",
+    "eyebrow": "Our work",
+    "title": "Case studies",
+    "subtitle": "Real outcomes for real businesses.",
+    "filterAll": "All",
+    "challenge": "The challenge",
+    "solution": "The solution",
+    "results": "The results",
+    "techUsed": "Tech used",
+    "client": "Client",
+    "category": "Category",
+    "confidential": "Confidential client",
+    "ctaTitle": "Start your project",
+    "ctaBody": "Let's create your next case study together."
+  },
+  "About": {
+    "metaTitle": "About — SwissDigiAI",
+    "metaDescription": "A Swiss digital agency uniting brand, web, app and AI under one roof. Built on precision, trust and data protection.",
+    "eyebrow": "About us",
+    "title": "Precision is our default setting",
+    "intro": "SwissDigiAI is a Zürich-based digital agency. We unite branding, web, apps and AI under one roof — so ambitious businesses get a single, accountable partner.",
+    "missionTitle": "Our mission",
+    "missionBody": "Make world-class digital — design, engineering and AI — accessible to Swiss businesses of every size.",
+    "whyTitle": "Why Switzerland",
+    "whyBody": "Precision, trust and rigorous data protection aren't marketing words here — they're how we operate. Your data stays protected, your timelines stay honest, your brand stays sharp.",
+    "valuesTitle": "What we value",
+    "values": {
+      "craft": { "title": "Craft", "body": "Details compound. We sweat them." },
+      "speed": { "title": "Speed", "body": "AI-accelerated delivery without cutting corners." },
+      "trust": { "title": "Trust", "body": "Clear pricing, clear timelines, no surprises." },
+      "privacy": { "title": "Privacy", "body": "Swiss-grade data protection by default." }
+    },
+    "teamTitle": "The team",
+    "teamSubtitle": "Small, senior, and hands-on.",
+    "ctaTitle": "Want to work with us?",
+    "ctaBody": "Let's talk about your project — or your career."
+  },
+  "Pricing": {
+    "metaTitle": "Pricing — SwissDigiAI",
+    "metaDescription": "Transparent packages for branding, web, apps and AI. Monthly retainers and project pricing — Swiss quality, clear numbers.",
+    "eyebrow": "Pricing",
+    "title": "Clear pricing, no surprises",
+    "subtitle": "Pick a package or request a custom quote. Prices exclude Swiss VAT (8.1%).",
+    "toggleMonthly": "Monthly",
+    "toggleProject": "Project",
+    "mostPopular": "Most popular",
+    "perMonth": "/mo",
+    "from": "from",
+    "vatNote": "Prices exclude Swiss VAT (8.1%).",
+    "customTitle": "Bigger or more complex project?",
+    "customBody": "We'll scope a custom quote tailored to your goals.",
+    "customCta": "Request a custom quote",
+    "featuresLabel": "Includes",
+    "getStartedWith": "Get started with {package}"
+  },
+  "Contact": {
+    "metaTitle": "Contact & Booking — SwissDigiAI",
+    "metaDescription": "Tell us about your project or book a free 30-minute discovery call with SwissDigiAI in Zürich.",
+    "eyebrow": "Get in touch",
+    "title": "Let's start something",
+    "subtitle": "Send us a message or book a free 30-minute discovery call. We reply within a few hours.",
+    "formTitle": "Send a message",
+    "bookingTitle": "Book a discovery call",
+    "bookingBody": "Prefer to talk? Grab a 30-minute slot that works for you.",
+    "office": "Office",
+    "officeValue": "Zürich, Switzerland",
+    "emailLabel": "Email",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company (optional)",
+      "service": "Service of interest",
+      "servicePlaceholder": "Select a service",
+      "budget": "Budget range",
+      "budgetPlaceholder": "Select a range",
+      "package": "Package",
+      "language": "Preferred language",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project…",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "successTitle": "Message sent!",
+      "successBody": "Thanks for reaching out — we'll be in touch shortly.",
+      "errorTitle": "Something went wrong",
+      "errorBody": "Please try again, or email us directly at hello@swissdigiai.ch.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email",
+      "tooShort": "Please add a little more detail"
+    },
+    "budgets": {
+      "lt5k": "Under CHF 5,000",
+      "5to15k": "CHF 5,000 – 15,000",
+      "15to50k": "CHF 15,000 – 50,000",
+      "gt50k": "CHF 50,000+",
+      "notSure": "Not sure yet"
+    }
+  },
+  "Blog": {
+    "metaTitle": "Blog — SwissDigiAI",
+    "metaDescription": "Notes on AI, design, web and growth from the SwissDigiAI team.",
+    "eyebrow": "Insights",
+    "title": "From the studio",
+    "subtitle": "Practical notes on AI, design and growth.",
+    "readingTime": "{minutes} min read",
+    "by": "By {author}",
+    "relatedTitle": "Related articles",
+    "backToBlog": "Back to blog",
+    "empty": "New articles are coming soon. In the meantime, let's talk."
+  },
+  "Legal": {
+    "lastUpdated": "Last updated: {date}",
+    "privacy": {
+      "metaTitle": "Privacy Policy — SwissDigiAI",
+      "title": "Privacy Policy",
+      "intro": "This placeholder privacy policy explains how SwissDigiAI collects and processes personal data in line with the Swiss FADP and the EU GDPR. Replace with your reviewed legal text before launch."
+    },
+    "imprint": {
+      "metaTitle": "Imprint — SwissDigiAI",
+      "title": "Imprint",
+      "intro": "Information pursuant to applicable disclosure requirements. Replace with your registered company details before launch."
+    },
+    "terms": {
+      "metaTitle": "Terms — SwissDigiAI",
+      "title": "Terms & Conditions",
+      "intro": "These placeholder terms govern the use of this website and our services. Replace with your reviewed legal text before launch."
+    }
+  },
+  "Chat": {
+    "buttonLabel": "Chat with our AI assistant",
+    "title": "SwissDigiAI Assistant",
+    "subtitle": "Ask about services, pricing or process",
+    "greeting": "Hi! I'm the SwissDigiAI assistant. Ask me about our services, pricing or process — or tell me about your project and I'll point you the right way.",
+    "placeholder": "Type your message…",
+    "send": "Send",
+    "thinking": "Thinking…",
+    "close": "Close chat",
+    "leadPrompt": "Want a human to follow up? Leave your email and we'll be in touch.",
+    "leadEmailPlaceholder": "you@company.com",
+    "leadSubmit": "Send",
+    "leadSuccess": "Thanks! We'll be in touch shortly.",
+    "bookInstead": "Or book a call",
+    "errorTitle": "Our assistant is offline right now",
+    "errorBody": "Leave your email and we'll get back to you — your message won't be lost.",
+    "poweredBy": "Powered by Claude"
+  },
+  "Cookie": {
+    "title": "We value your privacy",
+    "body": "We use essential cookies to run this site and optional analytics to improve it. You choose.",
+    "accept": "Accept all",
+    "reject": "Essential only",
+    "settings": "Settings",
+    "learnMore": "Privacy Policy"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist or has moved.",
+    "cta": "Back to home"
+  }
+}

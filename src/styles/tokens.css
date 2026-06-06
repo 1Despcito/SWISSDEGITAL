@@ -1,0 +1,49 @@
+/**
+ * SwissDigiAI design tokens.
+ * Single source of truth for brand values — keep in sync with tailwind.config.ts.
+ */
+:root {
+  /* Brand palette */
+  --color-navy: #0a1b2e;
+  --color-navy-2: #0f2a4a;
+  --color-navy-3: #143d6b;
+  --color-blue: #1f6feb;
+  --color-cyan: #36c5f0;
+  --color-slate: #5b6b7f;
+  --color-cloud: #f4f7fb;
+  --color-white: #ffffff;
+
+  /* Semantic */
+  --bg: var(--color-white);
+  --fg: var(--color-navy);
+  --muted: var(--color-slate);
+  --brand: var(--color-blue);
+  --accent: var(--color-cyan);
+
+  /* Layout */
+  --max-w: 1280px;
+  --radius-card: 1rem;
+  --radius-pill: 9999px;
+
+  /* Focus ring */
+  --ring: var(--color-blue);
+
+  /* ── Theme-aware semantic tokens (RGB triplets for rgb(var / alpha)) ── */
+  --c-bg: 255 255 255; /* page base */
+  --c-surface: 244 247 251; /* alternating section (cloud) */
+  --c-card: 255 255 255; /* elevated card */
+  --c-ink: 10 27 46; /* primary text (navy) */
+  --c-ink-muted: 91 107 127; /* secondary text (slate) */
+  --c-line: 10 27 46; /* borders/dividers (used at low alpha) */
+}
+
+.dark {
+  --c-bg: 6 15 28; /* deep navy page base */
+  --c-surface: 12 28 46; /* slightly lifted section */
+  --c-card: 16 35 55; /* elevated card */
+  --c-ink: 237 242 248; /* near-white text */
+  --c-ink-muted: 150 167 188; /* muted light text */
+  --c-line: 255 255 255; /* light borders at low alpha */
+
+  color-scheme: dark;
+}

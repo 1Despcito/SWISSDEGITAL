@@ -1,0 +1,79 @@
+{
+  "Common": {
+    "startProject": "Avvia un progetto",
+    "viewWork": "I nostri lavori",
+    "getQuote": "Richiedi un preventivo",
+    "bookCall": "Prenota una chiamata",
+    "learnMore": "Scopri di più",
+    "getStarted": "Inizia",
+    "talkToAI": "Parla con il nostro assistente IA",
+    "readMore": "Leggi di più",
+    "sendMessage": "Invia messaggio",
+    "loading": "Caricamento…",
+    "backToHome": "Torna alla home",
+    "allRightsReserved": "Tutti i diritti riservati.",
+    "madeIn": "Progettato & sviluppato in Svizzera."
+  },
+  "Nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "work": "Lavori",
+    "about": "Chi siamo",
+    "pricing": "Prezzi",
+    "blog": "Blog",
+    "contact": "Contatti",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "openMenu": "Apri menu",
+    "switchLanguage": "Cambia lingua"
+  },
+  "Footer": {
+    "tagline": "Creiamo brand, siti web & sistemi IA con la precisione svizzera.",
+    "company": "Azienda",
+    "servicesTitle": "Servizi",
+    "legalTitle": "Note legali",
+    "contactTitle": "Contatti",
+    "newsletterTitle": "Resta aggiornato",
+    "newsletterBody": "Qualche nota su IA, design e crescita. Niente spam.",
+    "newsletterPlaceholder": "La tua email",
+    "newsletterCta": "Iscriviti",
+    "newsletterSuccess": "Grazie — sei iscritto.",
+    "office": "Zurigo, Svizzera",
+    "privacy": "Privacy",
+    "imprint": "Note legali",
+    "terms": "Termini"
+  },
+  "Home": {
+    "metaTitle": "SwissDigiAI — Brand, siti web & sistemi IA",
+    "metaDescription": "Agenzia digitale svizzera che crea brand, siti web, app e sistemi IA su misura. Social media, sviluppo web & app e soluzioni IA — con precisione svizzera.",
+    "hero": {
+      "eyebrow": "Agenzia digitale svizzera",
+      "titleLead": "Creiamo brand, siti web &",
+      "titleHighlight": "sistemi IA",
+      "subtitle": "Gestione social media · Sviluppo web & app · Soluzioni IA su misura.",
+      "trust": "Scelti da aziende in tutta la Svizzera"
+    },
+    "aiHighlight": {
+      "cta": "Parla con il nostro assistente IA"
+    },
+    "ctaBand": {
+      "title": "Costruiamo qualcosa con la precisione svizzera.",
+      "subtitle": "Raccontaci il tuo progetto o prenota una chiamata conoscitiva gratuita di 30 minuti."
+    }
+  },
+  "Chat": {
+    "title": "Assistente SwissDigiAI",
+    "subtitle": "Domande su servizi, prezzi o processo",
+    "greeting": "Ciao! Sono l'assistente SwissDigiAI. Chiedimi dei nostri servizi, prezzi o processo — oppure raccontami del tuo progetto.",
+    "placeholder": "Scrivi il tuo messaggio…",
+    "poweredBy": "Powered by Claude"
+  },
+  "Cookie": {
+    "title": "La tua privacy è importante",
+    "body": "Usiamo cookie essenziali e cookie di analisi opzionali. Decidi tu.",
+    "accept": "Accetta tutti",
+    "reject": "Solo essenziali",
+    "settings": "Impostazioni",
+    "learnMore": "Privacy"
+  }
+}
