@@ -9,6 +9,6 @@ export const config = {
   // Match all paths except: api routes, Next internals, generated metadata routes
   // (opengraph/twitter images, icon, sitemap, robots), and files with an extension.
   matcher: [
-    '/((?!api|_next|_vercel|opengraph-image|twitter-image|icon|sitemap|robots|.*\\..*).*)',
+    '/((?!api|_next|_vercel|dashboard|opengraph-image|twitter-image|icon|sitemap|robots|.*\\..*).*)',
   ],
 };
