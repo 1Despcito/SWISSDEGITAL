@@ -6,6 +6,7 @@ import { siteUrl } from '@/lib/utils';
 // (inherited by pages that don't set their own via buildMetadata).
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
+  icons: { icon: '/icon.svg', shortcut: '/icon.svg', apple: '/icon.svg' },
 };
 
 // The real <html>/<body> live in app/[locale]/layout.tsx (locale decides lang+dir).

@@ -32,7 +32,7 @@
     "company": "Unternehmen",
     "servicesTitle": "Leistungen",
     "legalTitle": "Rechtliches",
-    "contactTitle": "Kontakt",
+    "contactTitle": "Kontakt aufnehmen",
     "newsletterTitle": "Bleiben Sie informiert",
     "newsletterBody": "Gelegentliche Notizen zu KI, Design und Wachstum. Kein Spam.",
     "newsletterPlaceholder": "Ihre E-Mail",
@@ -53,7 +53,66 @@
       "subtitle": "Social-Media-Management · Web- & App-Entwicklung · Massgeschneiderte KI-Lösungen.",
       "trust": "Vertraut von Unternehmen in der ganzen Schweiz"
     },
+    "services": {
+      "eyebrow": "Was wir tun",
+      "title": "Alles, was Sie für Online-Wachstum brauchen",
+      "subtitle": "Vom ersten Pixel bis zur produktiven KI — ein Team, von Anfang bis Ende."
+    },
+    "why": {
+      "eyebrow": "Warum SwissDigiAI",
+      "title": "Schweizer Präzision trifft KI-Tempo",
+      "items": {
+        "precision": {
+          "title": "Schweizer Präzision & Verlässlichkeit",
+          "body": "Sorgfältige Arbeit, klare Kommunikation und Termine, die wir wirklich einhalten."
+        },
+        "ai": {
+          "title": "KI-gestützte Effizienz",
+          "body": "Wir nutzen KI in unserem eigenen Workflow — damit Sie schneller und smarter liefern, statt nur darüber zu reden."
+        },
+        "fullstack": {
+          "title": "Marke → Web → App → KI",
+          "body": "Ein Partner für die ganze Reise. Keine Übergaben, keine Schuldzuweisungen."
+        },
+        "local": {
+          "title": "Mehrsprachiger, lokaler Service",
+          "body": "Muttersprachlicher EN/DE/FR/IT-Support und ein tiefes Verständnis des Schweizer Markts."
+        }
+      }
+    },
+    "work": {
+      "eyebrow": "Ausgewählte Arbeiten",
+      "title": "Ergebnisse, auf die wir stolz sind",
+      "subtitle": "Ein Einblick in aktuelle Projekte.",
+      "cta": "Alle Arbeiten ansehen"
+    },
+    "process": {
+      "eyebrow": "Wie wir arbeiten",
+      "title": "Ein klarer Weg von der Idee zum Wachstum",
+      "steps": {
+        "discover": { "title": "Entdecken", "body": "Wir lernen Ihre Ziele, Zielgruppe und Ihren Markt kennen." },
+        "design": { "title": "Gestalten", "body": "Wir entwerfen Marke, UX und visuelles System." },
+        "build": { "title": "Bauen", "body": "Wir entwickeln schnelle, skalierbare, KI-bereite Produkte." },
+        "grow": { "title": "Wachsen", "body": "Wir messen, optimieren und skalieren, was funktioniert." }
+      }
+    },
+    "stats": {
+      "title": "Zahlen, die zählen",
+      "items": {
+        "projects": { "label": "Gelieferte Projekte" },
+        "growth": { "label": "Durchschn. Kundenwachstum" },
+        "response": { "label": "Durchschn. Reaktionszeit" },
+        "retention": { "label": "Kundenbindung" }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Referenzen",
+      "title": "Was Kunden sagen"
+    },
     "aiHighlight": {
+      "eyebrow": "Mit KI gebaut",
+      "title": "Wir reden nicht nur über KI — wir laufen damit",
+      "body": "Diese Website hat einen Claude-gestützten Assistenten, der Fragen zu unseren Leistungen, Preisen und Abläufen beantwortet. Fragen Sie ihn alles.",
       "cta": "Mit unserem KI-Assistenten sprechen"
     },
     "ctaBand": {
@@ -61,19 +120,185 @@
       "subtitle": "Erzählen Sie uns von Ihrem Projekt oder buchen Sie ein kostenloses 30-minütiges Erstgespräch."
     }
   },
+  "Services": {
+    "metaTitle": "Leistungen — SwissDigiAI",
+    "metaDescription": "Social Media, Performance-Ads, Web- & App-Entwicklung, KI-Systeme und Branding — ergebnisorientierte Leistungen einer Schweizer Digitalagentur.",
+    "eyebrow": "Unsere Leistungen",
+    "title": "Ergebnisorientierte Leistungen",
+    "subtitle": "Wählen Sie einen Startpunkt — oder überlassen Sie uns den gesamten Stack.",
+    "viewService": "Mehr erfahren",
+    "ctaTitle": "Unsicher, wo Sie anfangen sollen?",
+    "ctaBody": "Nennen Sie uns Ihr Ziel und wir empfehlen den richtigen Mix.",
+    "whatYouGet": "Das bekommen Sie",
+    "ourProcess": "Unser Vorgehen",
+    "deliverables": "Ergebnisse",
+    "relatedWork": "Verwandte Arbeiten",
+    "faqTitle": "Häufig gestellte Fragen",
+    "pricingTeaser": "Transparente Pakete, Startpreise und individuelle Angebote.",
+    "pricingCta": "Preise ansehen",
+    "promiseLabel": "Das Versprechen"
+  },
+  "Work": {
+    "metaTitle": "Arbeiten & Fallstudien — SwissDigiAI",
+    "metaDescription": "Ausgewählte Fallstudien: Marken, Websites, Apps und KI-Systeme, geliefert mit Schweizer Präzision.",
+    "eyebrow": "Unsere Arbeiten",
+    "title": "Fallstudien",
+    "subtitle": "Echte Ergebnisse für echte Unternehmen.",
+    "filterAll": "Alle",
+    "challenge": "Die Herausforderung",
+    "solution": "Die Lösung",
+    "results": "Die Ergebnisse",
+    "techUsed": "Verwendete Technik",
+    "client": "Kunde",
+    "category": "Kategorie",
+    "confidential": "Vertraulicher Kunde",
+    "ctaTitle": "Starten Sie Ihr Projekt",
+    "ctaBody": "Lassen Sie uns gemeinsam Ihre nächste Fallstudie schaffen."
+  },
+  "About": {
+    "metaTitle": "Über uns — SwissDigiAI",
+    "metaDescription": "Eine Schweizer Digitalagentur, die Marke, Web, App und KI unter einem Dach vereint. Aufgebaut auf Präzision, Vertrauen und Datenschutz.",
+    "eyebrow": "Über uns",
+    "title": "Präzision ist unsere Grundeinstellung",
+    "intro": "SwissDigiAI ist eine Digitalagentur mit Sitz in Zürich. Wir vereinen Branding, Web, Apps und KI unter einem Dach — damit ambitionierte Unternehmen einen einzigen, verantwortlichen Partner haben.",
+    "missionTitle": "Unsere Mission",
+    "missionBody": "Erstklassiges Digitales — Design, Engineering und KI — für Schweizer Unternehmen jeder Grösse zugänglich machen.",
+    "whyTitle": "Warum die Schweiz",
+    "whyBody": "Präzision, Vertrauen und konsequenter Datenschutz sind hier keine Marketingfloskeln — so arbeiten wir. Ihre Daten bleiben geschützt, Ihre Termine ehrlich, Ihre Marke scharf.",
+    "valuesTitle": "Was uns wichtig ist",
+    "values": {
+      "craft": { "title": "Handwerk", "body": "Details summieren sich. Wir kümmern uns darum." },
+      "speed": { "title": "Tempo", "body": "KI-beschleunigte Lieferung ohne Abstriche." },
+      "trust": { "title": "Vertrauen", "body": "Klare Preise, klare Termine, keine Überraschungen." },
+      "privacy": { "title": "Datenschutz", "body": "Datenschutz auf Schweizer Niveau — standardmässig." }
+    },
+    "teamTitle": "Das Team",
+    "teamSubtitle": "Klein, erfahren und mit angepackt.",
+    "ctaTitle": "Möchten Sie mit uns arbeiten?",
+    "ctaBody": "Sprechen wir über Ihr Projekt — oder Ihre Karriere."
+  },
+  "Pricing": {
+    "metaTitle": "Preise — SwissDigiAI",
+    "metaDescription": "Transparente Pakete für Branding, Web, Apps und KI. Monatliche Retainer und Projektpreise — Schweizer Qualität, klare Zahlen.",
+    "eyebrow": "Preise",
+    "title": "Klare Preise, keine Überraschungen",
+    "subtitle": "Wählen Sie ein Paket oder fordern Sie ein individuelles Angebot an. Preise exkl. Schweizer MwSt. (8,1 %).",
+    "toggleMonthly": "Monatlich",
+    "toggleProject": "Projekt",
+    "mostPopular": "Am beliebtesten",
+    "perMonth": "/Mt.",
+    "from": "ab",
+    "vatNote": "Preise exkl. Schweizer MwSt. (8,1 %).",
+    "customTitle": "Grösseres oder komplexeres Projekt?",
+    "customBody": "Wir erstellen ein individuelles Angebot, das auf Ihre Ziele zugeschnitten ist.",
+    "customCta": "Individuelles Angebot anfordern",
+    "featuresLabel": "Enthält",
+    "getStartedWith": "Mit {package} starten"
+  },
+  "Contact": {
+    "metaTitle": "Kontakt & Buchung — SwissDigiAI",
+    "metaDescription": "Erzählen Sie uns von Ihrem Projekt oder buchen Sie ein kostenloses 30-minütiges Erstgespräch mit SwissDigiAI in Zürich.",
+    "eyebrow": "Kontakt aufnehmen",
+    "title": "Lassen Sie uns etwas starten",
+    "subtitle": "Senden Sie uns eine Nachricht oder buchen Sie ein kostenloses 30-minütiges Erstgespräch. Wir antworten innerhalb weniger Stunden.",
+    "formTitle": "Nachricht senden",
+    "bookingTitle": "Erstgespräch buchen",
+    "bookingBody": "Lieber sprechen? Schnappen Sie sich einen 30-minütigen Slot, der Ihnen passt.",
+    "office": "Büro",
+    "officeValue": "Zürich, Schweiz",
+    "emailLabel": "E-Mail",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "sie@firma.com",
+      "company": "Firma",
+      "companyPlaceholder": "Firma (optional)",
+      "service": "Gewünschte Leistung",
+      "servicePlaceholder": "Leistung auswählen",
+      "budget": "Budgetrahmen",
+      "budgetPlaceholder": "Bereich auswählen",
+      "package": "Paket",
+      "language": "Bevorzugte Sprache",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt …",
+      "submit": "Nachricht senden",
+      "submitting": "Wird gesendet …",
+      "successTitle": "Nachricht gesendet!",
+      "successBody": "Danke für Ihre Nachricht — wir melden uns in Kürze.",
+      "errorTitle": "Etwas ist schiefgelaufen",
+      "errorBody": "Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an hello@swissdigiai.ch.",
+      "required": "Dieses Feld ist erforderlich",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail ein",
+      "tooShort": "Bitte etwas mehr Details angeben"
+    },
+    "budgets": {
+      "lt5k": "Unter CHF 5'000",
+      "5to15k": "CHF 5'000 – 15'000",
+      "15to50k": "CHF 15'000 – 50'000",
+      "gt50k": "CHF 50'000+",
+      "notSure": "Noch unsicher"
+    }
+  },
+  "Blog": {
+    "metaTitle": "Blog — SwissDigiAI",
+    "metaDescription": "Notizen zu KI, Design, Web und Wachstum vom SwissDigiAI-Team.",
+    "eyebrow": "Einblicke",
+    "title": "Aus dem Studio",
+    "subtitle": "Praktische Notizen zu KI, Design und Wachstum.",
+    "readingTime": "{minutes} Min. Lesezeit",
+    "by": "Von {author}",
+    "relatedTitle": "Verwandte Artikel",
+    "backToBlog": "Zurück zum Blog",
+    "empty": "Neue Artikel folgen bald. In der Zwischenzeit: Sprechen wir."
+  },
+  "Legal": {
+    "lastUpdated": "Zuletzt aktualisiert: {date}",
+    "privacy": {
+      "metaTitle": "Datenschutz — SwissDigiAI",
+      "title": "Datenschutzerklärung",
+      "intro": "Diese vorläufige Datenschutzerklärung beschreibt, wie SwissDigiAI personenbezogene Daten gemäss dem Schweizer DSG und der EU-DSGVO erhebt und verarbeitet. Vor dem Launch durch Ihren geprüften Rechtstext ersetzen."
+    },
+    "imprint": {
+      "metaTitle": "Impressum — SwissDigiAI",
+      "title": "Impressum",
+      "intro": "Angaben gemäss den geltenden Offenlegungspflichten. Vor dem Launch durch Ihre eingetragenen Firmenangaben ersetzen."
+    },
+    "terms": {
+      "metaTitle": "AGB — SwissDigiAI",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "intro": "Diese vorläufigen Bedingungen regeln die Nutzung dieser Website und unserer Leistungen. Vor dem Launch durch Ihren geprüften Rechtstext ersetzen."
+    }
+  },
   "Chat": {
+    "buttonLabel": "Mit unserem KI-Assistenten chatten",
     "title": "SwissDigiAI Assistent",
     "subtitle": "Fragen zu Leistungen, Preisen oder Ablauf",
-    "greeting": "Hallo! Ich bin der SwissDigiAI-Assistent. Fragen Sie mich zu unseren Leistungen, Preisen oder zum Ablauf — oder erzählen Sie mir von Ihrem Projekt.",
+    "greeting": "Hallo! Ich bin der SwissDigiAI-Assistent. Fragen Sie mich zu unseren Leistungen, Preisen oder zum Ablauf — oder erzählen Sie mir von Ihrem Projekt und ich weise Ihnen den Weg.",
     "placeholder": "Nachricht eingeben …",
+    "send": "Senden",
+    "thinking": "Denkt nach …",
+    "close": "Chat schliessen",
+    "leadPrompt": "Soll sich ein Mensch melden? Hinterlassen Sie Ihre E-Mail und wir kontaktieren Sie.",
+    "leadEmailPlaceholder": "sie@firma.com",
+    "leadSubmit": "Senden",
+    "leadSuccess": "Danke! Wir melden uns in Kürze.",
+    "bookInstead": "Oder einen Termin buchen",
+    "errorTitle": "Unser Assistent ist gerade offline",
+    "errorBody": "Hinterlassen Sie Ihre E-Mail und wir melden uns — Ihre Nachricht geht nicht verloren.",
     "poweredBy": "Unterstützt von Claude"
   },
   "Cookie": {
     "title": "Ihre Privatsphäre ist uns wichtig",
-    "body": "Wir verwenden notwendige Cookies und optionale Analyse-Cookies. Sie entscheiden.",
+    "body": "Wir verwenden notwendige Cookies für den Betrieb und optionale Analyse-Cookies zur Verbesserung. Sie entscheiden.",
     "accept": "Alle akzeptieren",
     "reject": "Nur notwendige",
     "settings": "Einstellungen",
     "learnMore": "Datenschutz"
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zurück zur Startseite"
   }
 }
