@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import type { Locale } from '@/lib/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
 import { PageHero } from '@/components/sections/PageHero';
@@ -11,7 +11,7 @@ import { Avatar } from '@/components/ui/Avatar';
 import { Reveal, RevealGroup } from '@/components/motion/Reveal';
 import { getIcon, type IconKey } from '@/lib/icons';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
-import { team } from '@/content/team';
+import { getTeam } from '@/content/team';
 
 const VALUES: { key: string; icon: IconKey }[] = [
   { key: 'craft', icon: 'sparkles' },
@@ -38,6 +38,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
 function AboutContent() {
   const t = useTranslations('About');
   const tc = useTranslations('Common');
+  const team = getTeam(useLocale());
 
   return (
     <>

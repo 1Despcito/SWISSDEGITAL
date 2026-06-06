@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Quote } from 'lucide-react';
 import type { Locale } from '@/lib/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
@@ -23,7 +23,7 @@ export async function generateMetadata({
   params: { locale: Locale; slug: string };
 }): Promise<Metadata> {
   const { locale, slug } = params;
-  const item = getCaseStudy(slug);
+  const item = getCaseStudy(slug, locale);
   if (!item) return {};
   return buildMetadata({
     locale,
@@ -48,7 +48,7 @@ export default function CaseStudyPage({
 function CaseStudyContent({ slug }: { slug: string }) {
   const t = useTranslations('Work');
   const tc = useTranslations('Common');
-  const item = getCaseStudy(slug)!;
+  const item = getCaseStudy(slug, useLocale())!;
 
   return (
     <>

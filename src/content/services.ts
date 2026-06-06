@@ -1,4 +1,6 @@
 import type { IconKey } from '@/lib/icons';
+import type { Locale } from '@/lib/i18n/routing';
+import { serviceCopyI18n } from './services.i18n';
 
 /**
  * Service catalogue — typed content (CMS-ready). English is the master copy.
@@ -38,6 +40,12 @@ export type Service = {
   /** Related work slugs. */
   relatedWork: string[];
 };
+
+/** The localizable subset of a service (English master lives below; translations in services.i18n.ts). */
+export type ServiceCopy = Pick<
+  Service,
+  'title' | 'tagline' | 'promise' | 'included' | 'process' | 'deliverables' | 'faq'
+>;
 
 export const services: Record<ServiceSlug, Service> = {
   'social-media': {
@@ -273,8 +281,19 @@ export const services: Record<ServiceSlug, Service> = {
   },
 };
 
+/** English master list (use getLocalizedServices for locale-aware copy). */
 export const serviceList: Service[] = serviceSlugs.map((s) => services[s]);
 
-export function getService(slug: string): Service | undefined {
-  return (services as Record<string, Service>)[slug];
+/** A single service with its copy localized for `locale` (English fallback). */
+export function getService(slug: string, locale: string = 'en'): Service | undefined {
+  const base = (services as Record<string, Service>)[slug];
+  if (!base) return undefined;
+  if (locale === 'en') return base;
+  const copy = serviceCopyI18n[locale as Locale]?.[slug as ServiceSlug];
+  return copy ? { ...base, ...copy } : base;
+}
+
+/** All services with copy localized for `locale` (English fallback). */
+export function getLocalizedServices(locale: string = 'en'): Service[] {
+  return serviceSlugs.map((s) => getService(s, locale)!);
 }

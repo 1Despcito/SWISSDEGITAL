@@ -1,16 +1,17 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 import { Section } from '@/components/ui/Section';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Card } from '@/components/ui/Card';
 import { Reveal, RevealGroup } from '@/components/motion/Reveal';
 import { Link } from '@/lib/i18n/navigation';
-import { serviceList } from '@/content/services';
+import { getLocalizedServices } from '@/content/services';
 import { getIcon } from '@/lib/icons';
 
 export function ServicesGrid() {
   const t = useTranslations('Home.services');
   const tc = useTranslations('Common');
+  const serviceList = getLocalizedServices(useLocale());
 
   return (
     <Section tone="light">

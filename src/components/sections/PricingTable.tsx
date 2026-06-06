@@ -1,15 +1,16 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Check } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { packages, type BillingMode } from '@/content/pricing';
+import { getPackages, type BillingMode } from '@/content/pricing';
 import { track } from '@/lib/analytics';
 import { cn } from '@/lib/utils';
 
 export function PricingTable() {
   const t = useTranslations('Pricing');
+  const packages = getPackages(useLocale());
   const [mode, setMode] = useState<BillingMode>('monthly');
 
   useEffect(() => {

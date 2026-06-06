@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 import type { Locale } from '@/lib/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
@@ -11,7 +11,7 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Reveal, RevealGroup } from '@/components/motion/Reveal';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
-import { serviceList } from '@/content/services';
+import { getLocalizedServices } from '@/content/services';
 import { getIcon } from '@/lib/icons';
 
 export async function generateMetadata({
@@ -32,6 +32,7 @@ export default function ServicesPage({ params }: { params: { locale: string } })
 function ServicesContent() {
   const t = useTranslations('Services');
   const tc = useTranslations('Common');
+  const serviceList = getLocalizedServices(useLocale());
 
   return (
     <>

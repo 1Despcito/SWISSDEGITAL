@@ -47,8 +47,22 @@ export const posts: BlogPost[] = [
   },
 ];
 
-export function getPost(slug: string): BlogPost | undefined {
-  return posts.find((p) => p.slug === slug);
+import type { Locale } from '@/lib/i18n/routing';
+import { blogI18n } from './blog.i18n';
+
+function localize(base: BlogPost, locale: string): BlogPost {
+  if (locale === 'en') return base;
+  const copy = blogI18n[locale as Locale]?.[base.slug];
+  return copy ? { ...base, ...copy } : base;
+}
+
+export function getPosts(locale: string = 'en'): BlogPost[] {
+  return posts.map((p) => localize(p, locale));
+}
+
+export function getPost(slug: string, locale: string = 'en'): BlogPost | undefined {
+  const base = posts.find((p) => p.slug === slug);
+  return base ? localize(base, locale) : undefined;
 }
 
 /** Rough reading time in minutes from the body word count. */

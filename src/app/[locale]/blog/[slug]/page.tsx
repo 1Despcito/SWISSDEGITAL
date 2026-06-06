@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
-import { useFormatter, useTranslations } from 'next-intl';
+import { useFormatter, useLocale, useTranslations } from 'next-intl';
 import { ArrowLeft } from 'lucide-react';
 import type { Locale } from '@/lib/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
@@ -21,7 +21,7 @@ export async function generateMetadata({
   params: { locale: Locale; slug: string };
 }): Promise<Metadata> {
   const { locale, slug } = params;
-  const post = getPost(slug);
+  const post = getPost(slug, locale);
   if (!post) return {};
   return buildMetadata({
     locale,
@@ -46,7 +46,7 @@ export default function ArticlePage({
 function Article({ slug }: { slug: string }) {
   const t = useTranslations('Blog');
   const format = useFormatter();
-  const post = getPost(slug)!;
+  const post = getPost(slug, useLocale())!;
 
   return (
     <>

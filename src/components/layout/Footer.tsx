@@ -1,10 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Mail, MapPin, Linkedin, Instagram, Github } from 'lucide-react';
 import { Link } from '@/lib/i18n/navigation';
 import { Logo } from './Logo';
 import { NewsletterForm } from './NewsletterForm';
 import { Container } from '@/components/ui/Container';
-import { serviceList } from '@/content/services';
+import { getLocalizedServices } from '@/content/services';
 
 const CONTACT_EMAIL = 'hello@swissdigiai.ch';
 
@@ -17,6 +17,8 @@ const SOCIALS = [
 export function Footer() {
   const t = useTranslations('Footer');
   const tn = useTranslations('Nav');
+  const locale = useLocale();
+  const services = getLocalizedServices(locale);
   const year = new Date().getFullYear();
 
   const companyLinks = [
@@ -55,7 +57,7 @@ export function Footer() {
             <FooterCol title={t('company')} links={companyLinks} />
             <FooterCol
               title={t('servicesTitle')}
-              links={serviceList.map((s) => ({
+              links={services.map((s) => ({
                 href: `/services/${s.slug}`,
                 label: s.title,
               }))}

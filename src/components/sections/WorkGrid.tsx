@@ -1,20 +1,22 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { WorkCard } from './WorkCard';
-import { caseStudies } from '@/content/work';
-import { services } from '@/content/services';
+import { getCaseStudies } from '@/content/work';
+import { getService } from '@/content/services';
 import { cn } from '@/lib/utils';
 
 export function WorkGrid() {
   const t = useTranslations('Work');
+  const locale = useLocale();
+  const caseStudies = useMemo(() => getCaseStudies(locale), [locale]);
   const [filter, setFilter] = useState<string>('all');
 
   const categories = useMemo(() => {
     const set = new Set(caseStudies.map((c) => c.category));
     return Array.from(set);
-  }, []);
+  }, [caseStudies]);
 
   const visible = filter === 'all' ? caseStudies : caseStudies.filter((c) => c.category === filter);
 
@@ -26,7 +28,7 @@ export function WorkGrid() {
         </FilterChip>
         {categories.map((cat) => (
           <FilterChip key={cat} active={filter === cat} onClick={() => setFilter(cat)}>
-            {services[cat].title}
+            {getService(cat, locale)?.title ?? cat}
           </FilterChip>
         ))}
       </div>

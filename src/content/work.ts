@@ -1,4 +1,6 @@
 import type { ServiceSlug } from './services';
+import type { Locale } from '@/lib/i18n/routing';
+import { caseStudyI18n } from './work.i18n';
 
 /**
  * Case studies — placeholder concepts with a clearly swappable shape (brief §6.4).
@@ -132,10 +134,38 @@ export const caseStudies: CaseStudy[] = [
 
 export const featuredCaseStudies = caseStudies.filter((c) => c.featured);
 
-export function getCaseStudy(slug: string): CaseStudy | undefined {
-  return caseStudies.find((c) => c.slug === slug);
+/** Apply locale copy (English fallback) to one case study. */
+function localize(base: CaseStudy, locale: string): CaseStudy {
+  if (locale === 'en') return base;
+  const copy = caseStudyI18n[locale as Locale]?.[base.slug];
+  if (!copy) return base;
+  return {
+    ...base,
+    client: copy.client,
+    categoryLabel: copy.categoryLabel,
+    summary: copy.summary,
+    challenge: copy.challenge,
+    solution: copy.solution,
+    results: base.results.map((r, i) => ({ ...r, label: copy.results[i] ?? r.label })),
+    quote: copy.quote ? copy.quote : base.quote,
+  };
 }
 
-export function caseStudiesBySlugs(slugs: string[]): CaseStudy[] {
-  return slugs.map((s) => getCaseStudy(s)).filter((c): c is CaseStudy => Boolean(c));
+export function getCaseStudy(slug: string, locale: string = 'en'): CaseStudy | undefined {
+  const base = caseStudies.find((c) => c.slug === slug);
+  return base ? localize(base, locale) : undefined;
+}
+
+export function getCaseStudies(locale: string = 'en'): CaseStudy[] {
+  return caseStudies.map((c) => localize(c, locale));
+}
+
+export function getFeaturedCaseStudies(locale: string = 'en'): CaseStudy[] {
+  return featuredCaseStudies.map((c) => localize(c, locale));
+}
+
+export function caseStudiesBySlugs(slugs: string[], locale: string = 'en'): CaseStudy[] {
+  return slugs
+    .map((s) => getCaseStudy(s, locale))
+    .filter((c): c is CaseStudy => Boolean(c));
 }

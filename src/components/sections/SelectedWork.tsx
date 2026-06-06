@@ -1,14 +1,15 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 import { Section } from '@/components/ui/Section';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Reveal, RevealGroup } from '@/components/motion/Reveal';
 import { Link } from '@/lib/i18n/navigation';
-import { featuredCaseStudies } from '@/content/work';
+import { getFeaturedCaseStudies } from '@/content/work';
 import { WorkCard } from './WorkCard';
 
 export function SelectedWork() {
   const t = useTranslations('Home.work');
+  const featuredCaseStudies = getFeaturedCaseStudies(useLocale());
 
   return (
     <Section tone="cloud">

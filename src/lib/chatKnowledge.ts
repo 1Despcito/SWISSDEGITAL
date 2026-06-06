@@ -1,5 +1,5 @@
-import { serviceList } from '@/content/services';
-import { packages, VAT_RATE } from '@/content/pricing';
+import { getLocalizedServices } from '@/content/services';
+import { getPackages, VAT_RATE } from '@/content/pricing';
 import { localeLabels, type Locale } from '@/lib/i18n/routing';
 
 /**
@@ -9,11 +9,11 @@ import { localeLabels, type Locale } from '@/lib/i18n/routing';
 export function buildSystemPrompt(locale: string): string {
   const langName = localeLabels[(locale as Locale) in localeLabels ? (locale as Locale) : 'en'].native;
 
-  const servicesText = serviceList
+  const servicesText = getLocalizedServices(locale)
     .map((s) => `- ${s.title}: ${s.tagline}`)
     .join('\n');
 
-  const pricingText = packages
+  const pricingText = getPackages(locale)
     .map((p) => {
       const monthly = p.monthly ? `CHF ${p.monthly.toLocaleString('en-US')}/mo` : '';
       const project = p.project ? `from CHF ${p.project.toLocaleString('en-US')} per project` : '';

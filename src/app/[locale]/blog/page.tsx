@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { useFormatter, useTranslations } from 'next-intl';
+import { useFormatter, useLocale, useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 import type { Locale } from '@/lib/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
@@ -9,7 +9,7 @@ import { PageHero } from '@/components/sections/PageHero';
 import { Section } from '@/components/ui/Section';
 import { LogoMark } from '@/components/layout/Logo';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
-import { posts, readingMinutes } from '@/content/blog';
+import { getPosts, readingMinutes } from '@/content/blog';
 
 export async function generateMetadata({
   params,
@@ -30,6 +30,7 @@ function BlogContent() {
   const t = useTranslations('Blog');
   const tc = useTranslations('Common');
   const format = useFormatter();
+  const posts = getPosts(useLocale());
 
   return (
     <>

@@ -1,16 +1,17 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { Section } from '@/components/ui/Section';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Avatar } from '@/components/ui/Avatar';
-import { testimonials } from '@/content/testimonials';
+import { getTestimonials } from '@/content/testimonials';
 import { cn } from '@/lib/utils';
 
 export function Testimonials() {
   const t = useTranslations('Home.testimonials');
+  const testimonials = getTestimonials(useLocale());
   const [index, setIndex] = useState(0);
   const count = testimonials.length;
   const active = testimonials[index]!;
